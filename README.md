@@ -1,1 +1,31 @@
 # sql-work
+
+
+
+-- Criação da tabela "Clientes"
+CREATE TABLE Clientes (
+ID_cliente INT PRIMARY KEY,
+Nome VARCHAR(100) NOT NULL,
+Endereco VARCHAR(100) NOT NULL,
+Cidade VARCHAR(50) NOT NULL,
+Estado VARCHAR(50) NOT NULL,
+CEP VARCHAR(10) NOT NULL,
+Telefone VARCHAR(20) NOT NULL,
+Email VARCHAR(100) NOT NULL
+);
+
+-- Criação da tabela "Funcionarios"
+CREATE TABLE Funcionarios (
+ID_funcionario INT PRIMARY KEY,
+Nome VARCHAR(100) NOT NULL,
+Cargo VARCHAR(50) NOT NULL,
+Departamento VARCHAR(50) NOT NULL,
+Data_Contratacao DATE NOT NULL,
+Salario DECIMAL(10, 2) NOT NULL,
+Endereco VARCHAR(100) NOT NULL,
+Cidade VARCHAR(50) NOT NULL,
+Estado VARCHAR(50) NOT NULL,
+CEP VARCHAR(10) NOT NULL,
+Telefone VARCHAR(20) NOT NULL,
+Email VARCHAR(100) NOT NULL
+);
